@@ -1,0 +1,35 @@
+@relation 'dermatology-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.Remove-R1,6,8,10-12,17-19,23-24,27,30,32,34-weka.filters.unsupervised.instance.RemovePercentage-P50.0-V'
+
+@attribute scaling {0,1,2,3}
+@attribute definite_borders {0,1,2,3}
+@attribute itching {0,1,2,3}
+@attribute koebner_phenomenon {0,1,2,3}
+@attribute follicular_papules {0,1,2,3}
+@attribute knee_and_elbow_involvement {0,1,2,3}
+@attribute eosinophils_in_the_infiltrate {0,1,2}
+@attribute PNL_infiltrate {0,1,2,3}
+@attribute fibrosis_of_the_papillary_dermis {0,1,2,3}
+@attribute exocytosis {0,1,2,3}
+@attribute clubbing_of_the_rete_ridges {0,1,2,3}
+@attribute elongation_of_the_rete_ridges {0,1,2,3}
+@attribute thinning_of_the_suprapapillary_epidermis {0,1,2,3}
+@attribute focal_hypergranulosis {0,1,2,3}
+@attribute disappearance_of_the_granular_layer {0,1,2,3}
+@attribute spongiosis {0,1,2,3}
+@attribute saw-tooth_appearance_of_retes {0,1,2,3}
+@attribute perifollicular_parakeratosis {0,1,2,3}
+@attribute band-like_infiltrate {0,1,2,3}
+@attribute class {1,2,3,4,5,6}
+
+@data
+2,0,3,0,0,1,0,0,0,3,0,0,0,0,0,3,0,0,0,?
+3,3,2,1,0,1,0,1,0,1,2,2,2,0,0,0,0,0,0,?
+1,2,3,1,0,0,0,0,0,1,0,0,0,2,0,3,2,0,3,?
+2,2,0,0,0,3,0,3,0,0,2,2,2,0,3,0,0,0,0,?
+3,2,2,2,0,0,0,0,0,1,0,0,0,2,2,2,3,0,3,?
+3,2,0,0,0,0,2,1,0,2,0,0,0,0,0,2,0,0,0,?
+1,0,2,0,0,0,0,0,3,1,0,2,0,0,0,0,0,0,0,?
+2,3,3,3,0,0,0,0,0,2,0,0,0,0,2,3,2,0,3,?
+2,1,0,2,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,?
+2,1,0,1,0,0,0,0,0,3,0,0,0,0,0,2,0,0,0,?
+3,2,1,1,0,2,0,0,0,0,2,2,2,0,0,0,0,0,0,?
